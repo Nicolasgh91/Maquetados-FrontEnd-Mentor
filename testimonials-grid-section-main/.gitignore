@@ -15,3 +15,8 @@
 .DS_Store
 
 .prettierignore
+
+#No sube archivos sass#
+.sass-cache
+*.scss
+
