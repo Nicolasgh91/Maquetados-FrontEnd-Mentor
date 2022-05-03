@@ -1,4 +1,4 @@
-@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +6,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -70,7 +70,7 @@ box-shadow: 1px 0px 31px -9px rgba(46,20,20,0.75);
   background-color: hsl(263deg, 50%, 44%);
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
-  background-position-x: right 60px;
+  background-position-x: 95%;
   grid-column: 2/4;
   grid-row: 2/4;
 }
@@ -145,7 +145,7 @@ p {
 }
 
 /*grid-template-columns: 30px 1fr 1fr 1fr 1fr 30px;
-  grid-template-rows: 30px auto auto auto auto  30px; */
+  grid-template-rows: 30px 1fr 1fr 1fr 1fr  30px; */
 @media screen and (max-width: 700px) {
   .card1 {
     grid-column: 2/6;
@@ -155,7 +155,7 @@ p {
   .card2 {
     grid-column: 2/6;
     grid-row: 3/3;
-    
+    height: fit-content;
   }
 
   .card3 {
@@ -166,11 +166,13 @@ p {
   .card4 {
     grid-column: 2/6;
     grid-row: 5/5;
+    height: fit-content;
   }
 
   .card5 {
     grid-column: 2/6;
     grid-row: 6/7;
+    height: fit-content;
   }
 }
 
